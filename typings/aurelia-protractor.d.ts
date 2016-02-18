@@ -1,7 +1,3 @@
-// Type definitions for Aurelia Protractor extensions
-// Project: https://github.com/aurelia/skeleton-navigation
-// Definitions by: Enrapt <https://github.com/Enrapt>, Kirill Grishin <https://github.com/KirillGrishin>
-
 /// <reference path="./angular-protractor/angular-protractor.d.ts" />
 /// <reference path="./selenium-webdriver/selenium-webdriver.d.ts" />
 
