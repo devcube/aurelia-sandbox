@@ -179,8 +179,8 @@ ClientBin/
 *.pfx
 *.publishsettings
 node_modules/
-wwwroot/dist/
-wwwroot/jspm_packages/
+server/wwwroot/dist/
+server/wwwroot/jspm_packages/
 orleans.codegen.cs
 
 # RIA/Silverlight projects

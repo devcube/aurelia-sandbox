@@ -1,5 +1,5 @@
 var appRoot = 'src/';
-var outputRoot = 'wwwroot/dist/';
+var outputRoot = 'server/wwwroot/dist/';
 var exporSrvtRoot = 'export/'
 
 module.exports = {
@@ -15,6 +15,6 @@ module.exports = {
   e2eSpecsDist: 'test/e2e/dist/',
   dtsSrc: [
     'typings/**/*.ts',
-    './wwwroot/jspm_packages/**/*.d.ts'
+    './server/wwwroot/jspm_packages/**/*.d.ts'
   ]
 }

@@ -54,7 +54,7 @@
   },
   "jspm": {
     "directories": {
-      "baseURL": "wwwroot"
+      "baseURL": "server/wwwroot"
     },
     "dependencies": {
       "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-beta.1.1.0",
