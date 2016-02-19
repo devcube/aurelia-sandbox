@@ -1,29 +1,23 @@
 {
-  "version": "1.7.3",
-  "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": "src/",
-    "sourceMap": true,
     "target": "es5",
-    "module": "amd",
-    "declaration": false,
-    "noImplicitAny": false,
-    "noResolve": true,
-    "removeComments": true,
-    "noLib": false,
+    "module": "commonjs",
     "emitDecoratorMetadata": true,
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "sourceMap": true
   },
+  "exclude": [
+    "node_modules",
+    "typings/main.d.ts",
+    "typings/main"
+  ],
   "filesGlob": [
     "./src/**/*.ts",
     "./test/**/*.ts",
-    "./typings/**/*.d.ts",
-    "./server/wwwroot/jspm_packages/**/*.d.ts"
+    "!./node_modules/**/*.ts",
+    "src/custom_typings.d.ts",
+    "typings/browser.d.ts"
   ],
-  "exclude": [
-    "node_modules"
-  ],
-  "atom": {
-    "rewriteTsconfig": false
-  }
+  "compileOnSave": false,
+  "buildOnSave": false
 }
