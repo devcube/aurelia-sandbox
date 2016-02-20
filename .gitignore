@@ -10,6 +10,7 @@ server/wwwroot/*
 !server/wwwroot/.gitkeep
 
 # Webpack
+devbuild/
 webpack.json
 
 ## Ignore Visual Studio temporary files, build results, and

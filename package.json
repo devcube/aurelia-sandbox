@@ -7,6 +7,7 @@
     "clean:wwwroot": "rimraf server/wwwroot",
     "create:wwwroot": "mkdirp server/wwwroot",
     "create:gitkeep": "touch server/wwwroot/.gitkeep",
+    "prebuild:dev": "rimraf devbuild",
     "build:dev": "webpack --progress --profile --colors --display-error-details --display-cached",
     "prebuild:prod": "npm run clean:wwwroot && npm run create:wwwroot && npm run create:gitkeep",
     "build:prod": "webpack --config webpack.prod.config.js --progress --profile --colors --display-error-details --display-cached",
